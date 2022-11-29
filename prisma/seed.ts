@@ -46,7 +46,7 @@ const run = async () => {
           songs: {
             connect: songs.map((song) => ({
               id: song.id
-            })),
+            })), 
           },
         }
       })
